@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="#92CAD9"
+    android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Vaccine center name -->
+        <TextView
+            android:id="@+id/CenterName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vaccine_center_name"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Vaccine availability status -->
+        <TextView
+            android:id="@+id/Availability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/available"
+            android:textColor="#275764"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Vaccine Location status -->
+        <TextView
+            android:id="@+id/Location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location"
+            android:textColor="@color/material_dynamic_primary30"
+            android:textSize="14sp" />
+
+        <!-- Other slot details (e.g., date, time) -->
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/date_mm_dd_yyyy"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/Time"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/time_hh_mm_am"
+            android:textColor="@android:color/black"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book "
+        android:backgroundTint="@color/material_dynamic_primary40"
+        android:layout_gravity="center"
+        android:onClick="book"
+        />
+</LinearLayout>

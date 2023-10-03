@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    >
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="User Record"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:elegantTextHeight="true"
+        android:textSize="30sp"
+        android:textColor="@color/material_dynamic_primary30"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/alice"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/heading"
+        >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProfile"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        />
+    </LinearLayout>
+
+</RelativeLayout>

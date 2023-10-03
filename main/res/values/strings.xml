@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Covid vaccination</string>
+    <string name="time_hh_mm_am">Time: HH:MM AM</string>
+    <string name="date_mm_dd_yyyy">Date: MM/DD/YYYY</string>
+    <string name="location">Location</string>
+    <string name="available">Available</string>
+    <string name="vaccine_center_name">Vaccine Center Name</string>
+    <string name="available_vaccine_slots">Available Vaccine Slots</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="update_slots">Update Slots</string>
+    <string name="date_dd_mm_yyyy">Date (DD/MM/YYYY)</string>
+    <string name="time_hh_mm_am_pm">Time (HH:mm AM/PM)</string>
+    <string name="post_location">Location</string>
+    <string name="post_slot">Post Slot</string>
+    <string name="user_record">User Record</string>
+    <string name="post_vaccination_slots">Post Vaccination Slots</string>
+    <string name="logout">Logout</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user_register_here">New User? Register Here</string>
+    <string name="john_doe">John Doe</string>
+    <string name="john_example_com">john@example.com</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="vaccinated">Vaccinated</string>
+    <string name="number_of_vaccinations_taken">Number of Vaccinations Taken</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="navigation_drawer_open_">\n</string>
+    <string name="navigation_drawer_close_" />
+    <string name="download_certificate">Download Certificate</string>
+</resources>

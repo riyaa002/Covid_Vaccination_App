@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile"
+    android:padding="10dp"
+    android:background="#92cad9"
+
+   >
+
+    <TextView
+        android:id="@+id/txtprofile2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/alice"
+        android:gravity="center"
+        android:text="Your Profile"
+        android:textColor="@color/material_dynamic_primary30"
+        android:textSize="35dp" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/txtprofile2"
+    android:layout_marginBottom="30dp"
+    >
+    <LinearLayout
+        android:id="@+id/linearprofile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/person_outline"
+            android:layout_weight="2"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="UserName"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="22dp"
+            android:textColor="@color/material_dynamic_primary30"
+            android:fontFamily="@font/alice"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lnr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearprofile"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Total Vaccines Taken"
+            android:textSize="22dp"
+            android:textColor="@color/material_dynamic_primary30"
+            android:fontFamily="@font/alice"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="1"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:textColor="@color/material_dynamic_primary30"
+            android:fontFamily="@font/alice"
+            />
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btndownload"
+        android:layout_below="@id/lnr2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/download_certificate"
+        android:textSize="20sp"
+        android:backgroundTint="@color/material_dynamic_primary30"
+        android:textColor="@color/white"
+        android:fontFamily="@font/alice"
+        android:onClick="download"
+        />
+    <ImageView
+        android:layout_below="@+id/btndownload"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bottles"
+
+        />
+
+</RelativeLayout>
+
+
+</RelativeLayout>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/material_dynamic_primary90"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/update_slots"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"
+            android:textColor="@color/material_dynamic_primary30"
+            android:fontFamily="@font/alice"
+            />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/date_dd_mm_yyyy"
+            android:inputType="date"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextTime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/time_hh_mm_am_pm"
+            android:inputType="time"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/post_location"
+            android:layout_marginBottom="20dp"
+            android:inputType="text"
+            />
+
+        <Button
+            android:id="@+id/buttonPostSlot"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="@string/post_slot"
+            android:onClick="postSlot"
+            android:textSize="20sp"
+            android:backgroundTint="@color/material_dynamic_primary20"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
